@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+* Container for the entire assistant widget */
+.healthcare-assistant {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Header styling based on your image */
+.header {
+  background-color: #0000ff; /* Blue background */
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+.header img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* Chat display area */
+.chat-body {
+  padding: 15px;
+  background-color: #f9f9f9;
+  min-height: 100px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Input and Button area */
+.chat-footer {
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Update your existing button style to include a transition */
+button {
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Adds a smooth 0.3-second fade when hovering */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* The hover state */
+button:hover {
+  background-color: #0000cc; /* A slightly darker blue */
+  transform: translateY(-2px); /* Makes the button "float" up slightly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+/* Optional: Active state for when the button is clicked */
+button:active {
+  transform: translateY(0); /* Returns to original position when clicked */
+}

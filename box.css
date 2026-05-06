@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+    margin-bottom: 30px
+
+
+}
+p{
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: blue;
+    font-weight: 700;
+   text-decoration: underline;
+   text-decoration-color: rgb(215, 15, 49);
+   
+}
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 200px;
+    background-color: rgba(255,87,51,10);
+    align-content: center;
+    text-align: center;
+    display: block;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+.learn {
+    margin: 20px;
+    font-size: large;
+    color: white
+    ba
+
+}
+.learn :hover {
+    color: blue;
+    text-decoration: underline;
+    transform: rotateX('30deg');
+
+}
+.learn :active{
+    background-color: brown;
+}
+input :focus{
+    border: 2px solid rgb(67, 11, 221);
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+li:last-child {
+    font-size: larger;
+    color: blue;
+    
+}
+li:first-child {
+    font-style: italic;
+    color: blue;
+}
+li:nth-child(3) {
+    color: blue;
+    font-size: xx-large;
+}
+p::before{
+    content: "Shalom Yisreal"; color: rgb(232, 219, 219);
+}
+p::after{
+    content: "I am a proud Developer"; color: aquamarine;
+    text-decoration:overline;
+}
+p::first-letter{
+    background-color: brown;
+    font-style: italic; font-size: larger;
+}
+p::first-line{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: brown;
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
